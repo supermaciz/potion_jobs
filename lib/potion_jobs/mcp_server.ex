@@ -4,6 +4,6 @@ defmodule PotionJobs.MCPServer do
     version: "1.0.0",
     capabilities: [:tools]
 
-  component PotionJobs.Resources.ElixirForumLastJobs
-  component PotionJobs.Resources.ElixirForumJobDetails
+  component PotionJobs.Tools.ElixirForumLastJobs
+  component PotionJobs.Tools.ElixirForumJobDetails
 end

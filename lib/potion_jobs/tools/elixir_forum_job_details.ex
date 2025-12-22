@@ -1,4 +1,4 @@
-defmodule PotionJobs.Resources.ElixirForumJobDetails do
+defmodule PotionJobs.Tools.ElixirForumJobDetails do
   @moduledoc """
   Resource fetching the details of a specific job offer from Elixir Forum
 

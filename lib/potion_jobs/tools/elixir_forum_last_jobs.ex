@@ -1,4 +1,4 @@
-defmodule PotionJobs.Resources.ElixirForumLastJobs do
+defmodule PotionJobs.Tools.ElixirForumLastJobs do
   @moduledoc """
   Resource fetching the last job offers from Elixir Forum
 
