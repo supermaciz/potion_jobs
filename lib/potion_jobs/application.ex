@@ -8,6 +8,9 @@ defmodule PotionJobs.Application do
   @impl true
   def start(_type, _args) do
     children = [
+      {Bandit, plug: PotionJobs.Router},
+      Anubis.Server.Registry,
+      {PotionJobs.MCPServer, transport: :streamable_http}
       # Starts a worker by calling: PotionJobs.Worker.start_link(arg)
       # {PotionJobs.Worker, arg}
     ]
