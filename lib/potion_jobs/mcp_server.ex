@@ -6,9 +6,11 @@ defmodule PotionJobs.MCPServer do
   that can be invoked by MCP clients (AI assistants).
   """
 
+  @version Application.spec(:potion_jobs)[:vsn] |> to_string()
+
   use Anubis.Server,
     name: "potion-jobs",
-    version: "1.0.0",
+    version: @version,
     capabilities: [:tools]
 
   component(PotionJobs.Tools.ElixirForumLastJobs)
