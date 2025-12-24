@@ -1,4 +1,8 @@
 defmodule PotionJobs.Router do
+  @moduledoc """
+  HTTP router for PotionJobs application.
+  """
+
   use Plug.Router
 
   plug :match
