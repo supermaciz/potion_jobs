@@ -15,4 +15,6 @@ defmodule PotionJobs.MCPServer do
 
   component(PotionJobs.Tools.ElixirForumLastJobs)
   component(PotionJobs.Tools.ElixirForumJobDetails)
+  component(PotionJobs.Tools.ElixirJobsLatestOffers)
+  component(PotionJobs.Tools.ElixirJobsOfferDetails)
 end
